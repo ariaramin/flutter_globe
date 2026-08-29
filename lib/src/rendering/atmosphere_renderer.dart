@@ -64,8 +64,11 @@ class AtmosphereRenderer {
       final rimColor =
           secondaryColor.withValues(alpha: effectiveIntensity * 0.20);
 
-      final glowColorValue = glowColor.toARGB32();
-      final rimColorValue = rimColor.toARGB32();
+      // `value` keeps the declared Flutter 3.27 compatibility.
+      // ignore: deprecated_member_use
+      final glowColorValue = glowColor.value;
+      // ignore: deprecated_member_use
+      final rimColorValue = rimColor.value;
 
       if (_lastOuterGlowCenterX != center.dx ||
           _lastOuterGlowCenterY != center.dy ||
@@ -111,7 +114,8 @@ class AtmosphereRenderer {
     final highlightColor = atmosphere.color.withValues(
         alpha:
             0.15 * style.globeOpacity * opacityMultiplier * atmosphereProgress);
-    final highlightValue = highlightColor.toARGB32();
+    // ignore: deprecated_member_use
+    final highlightValue = highlightColor.value;
 
     // Light source coming from upper-left and slightly front
     final lightOffset =

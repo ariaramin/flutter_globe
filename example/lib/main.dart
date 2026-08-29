@@ -290,8 +290,14 @@ class _GlobeShowcaseScreenState extends State<GlobeShowcaseScreen>
   String _generateDartCode({bool fullConfig = false}) {
     final skinName =
         GlobeSkins.named.entries.firstWhere((e) => e.value == _activeTheme).key;
+    int colorValue(Color color) {
+      // `value` keeps the declared Flutter 3.27 compatibility.
+      // ignore: deprecated_member_use
+      return color.value;
+    }
+
     String color(Color value) =>
-        'const Color(0x${value.toARGB32().toRadixString(16).padLeft(8, '0')})';
+        'const Color(0x${colorValue(value).toRadixString(16).padLeft(8, '0')})';
     String coordinate(GlobeCoordinate c) =>
         'GlobeCoordinate(latitude: ${c.latitude}, longitude: ${c.longitude})';
     final markers = _getStandardMarkers()

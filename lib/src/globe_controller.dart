@@ -1,6 +1,9 @@
 import 'dart:async';
 import 'package:flutter/animation.dart';
 import 'package:flutter/foundation.dart';
+// Flutter 3.27 does not re-export `internal` from foundation.
+// ignore: unnecessary_import
+import 'package:meta/meta.dart';
 import 'controllers/globe_tour.dart';
 import 'math/quaternion.dart';
 import 'math/vector3.dart';
