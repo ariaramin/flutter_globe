@@ -1,0 +1,29 @@
+name: flutter_globe
+description: Interactive Canvas globes for Flutter with geographic markers, animated arcs, configurable themes, data layers, and camera controls.
+version: 1.0.0
+homepage: https://github.com/ariaramin/flutter_globe
+repository: https://github.com/ariaramin/flutter_globe
+issue_tracker: https://github.com/ariaramin/flutter_globe/issues
+topics:
+  - globe
+  - visualization
+  - animation
+  - maps
+  - graphics
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.27.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

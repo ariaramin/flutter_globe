@@ -1,0 +1,21 @@
+name: Documentation issue
+description: Report a stale snippet, broken link, or unclear guide.
+title: "[Docs]: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page and section
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is unclear or incorrect?
+      description: Include the exact failing snippet or analyzer/runtime error.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction

@@ -1,0 +1,10 @@
+.dart_tool/
+build/
+example/.dart_tool/
+example/build/
+**/*.iml
+**/.DS_Store
+**/*.log
+.git/
+coverage/
+doc/api/

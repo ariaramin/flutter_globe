@@ -1,0 +1,23 @@
+name: Rendering issue
+description: Report incorrect globe, layer, or responsive rendering.
+title: "[Rendering]: "
+body:
+  - type: textarea
+    id: setup
+    attributes:
+      label: Rendering setup
+      description: Platform/device, renderer, screen size, pixel ratio, quality, skin, projection, and text scale.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include the smallest public widget and expected appearance.
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or recording
+      description: Attach an unedited capture when possible; remove private data.

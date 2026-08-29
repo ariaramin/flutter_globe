@@ -1,0 +1,31 @@
+name: Performance issue
+description: Report a measured performance regression.
+title: "[Performance]: "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Device, OS, Flutter/Dart version, renderer, build mode, viewport, and pixel ratio.
+    validations:
+      required: true
+  - type: textarea
+    id: workload
+    attributes:
+      label: Workload
+      description: Benchmark profile, quality, marker/arc/particle counts, and exported benchmark JSON.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Measurements
+      description: Expected versus observed results and power/thermal conditions.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+    validations:
+      required: true
