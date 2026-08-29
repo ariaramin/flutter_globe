@@ -32,7 +32,7 @@ Or add it manually:
 
 ```yaml
 dependencies:
-  flutter_globe: ^1.0.1
+  flutter_globe: ^1.0.2
 ```
 
 ## Create your first globe
@@ -62,9 +62,7 @@ The images below come from the package's release example, not a design mockup.
 
 ![Flutter Globe desktop showcase](assets/readme/previews/showcase.png)
 
-<p align="center">
-  <img src="assets/readme/previews/mobile.png" width="300" alt="Flutter Globe responsive mobile showcase" />
-</p>
+![Flutter Globe desktop data layers with graticule and route lines](assets/readme/previews/layers.png)
 
 ## Add markers and routes
 

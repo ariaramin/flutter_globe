@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 — 2026-08-29
+
+### Documentation
+
+- Replaced the mobile README preview with a second desktop capture showing visible graticule and route lines across the globe.
+
 ## 1.0.1 — 2026-08-29
 
 ### Documentation

@@ -1,6 +1,6 @@
 # Release readiness report
 
-**Status: published with notes.** Flutter Globe 1.0.1 is available on pub.dev and GitHub. This patch refreshes documentation assets without changing the package API or runtime behavior.
+**Status: published with notes.** Flutter Globe 1.0.2 is available on pub.dev and GitHub. This patch refreshes documentation assets without changing the package API or runtime behavior.
 
 ## Release scope
 
@@ -13,7 +13,7 @@
 
 ## Assets and data
 
-- `assets/readme/banner.png` is the maintainer-supplied 1915 x 821 project banner. The README also includes desktop and mobile captures from the real release example, documented in [assets](assets.md).
+- `assets/readme/banner.png` is the maintainer-supplied 1915 x 821 project banner. The README also includes two desktop captures from the real release example, documented in [assets](assets.md).
 - The bundled land point cloud contains 2,594 deterministic samples generated from Natural Earth 1:110m public-domain land polygons. Source URL, checksum, terms, and generator are recorded in [`ATTRIBUTION.md`](../ATTRIBUTION.md).
 - The package contains no remote runtime map request, API key, or proprietary map dataset.
 
