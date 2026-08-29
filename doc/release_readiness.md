@@ -1,6 +1,6 @@
 # Release readiness report
 
-**Status: ready with notes.** Flutter Globe 1.0.0 passes the package release gates in this checkout. Publication and remote CI are tracked separately because they are external operations.
+**Status: published with notes.** Flutter Globe 1.0.1 is available on pub.dev and GitHub. This patch refreshes documentation assets without changing the package API or runtime behavior.
 
 ## Release scope
 
@@ -13,9 +13,9 @@
 
 ## Assets and data
 
-- README artwork is limited to `assets/readme/banner.png`, an original generated 2048 x 768 banner documented in [assets](assets.md).
+- `assets/readme/banner.png` is the maintainer-supplied 1915 x 821 project banner. The README also includes desktop and mobile captures from the real release example, documented in [assets](assets.md).
 - The bundled land point cloud contains 2,594 deterministic samples generated from Natural Earth 1:110m public-domain land polygons. Source URL, checksum, terms, and generator are recorded in [`ATTRIBUTION.md`](../ATTRIBUTION.md).
-- The package contains no remote runtime map request, API key, proprietary map dataset, or secondary README gallery.
+- The package contains no remote runtime map request, API key, or proprietary map dataset.
 
 ## Verification record
 
@@ -35,10 +35,10 @@
 ## Compatibility and remaining verification
 
 - Web is the platform verified locally for this release.
-- CI covers Flutter 3.27.4, the declared minimum line, and Flutter 3.47.0. The remote result must be green before the GitHub release is tagged.
+- CI passed Flutter 3.27.4, the declared minimum line, and Flutter 3.47.0 before the GitHub release was tagged.
 - Android, iOS, macOS, Windows, and Linux have not been built in this checkout.
 - No physical-device performance profile, GPU measurement, screen-reader session, or complete large-text matrix was recorded. Canvas portability and automated tests do not substitute for those checks.
-- Private vulnerability reporting must be enabled on the public GitHub repository before launch.
+- Private vulnerability reporting is enabled on the public GitHub repository.
 
 ## Release commands
 
@@ -55,4 +55,4 @@ flutter test
 flutter build web --release
 ```
 
-The authorized publication sequence is: push the public GitHub repository, confirm CI, publish `flutter_globe` 1.0.0 to pub.dev, then create the `v1.0.0` GitHub release.
+Published artifacts: [pub.dev](https://pub.dev/packages/flutter_globe), [GitHub repository](https://github.com/ariaramin/flutter_globe), and [v1.0.0 release](https://github.com/ariaramin/flutter_globe/releases/tag/v1.0.0).

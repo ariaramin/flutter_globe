@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 — 2026-08-29
+
+### Documentation
+
+- Replaced the README banner with the maintainer-supplied Flutter Globe artwork.
+- Simplified the README and added real desktop and responsive mobile example previews.
+
 ## 1.0.0 — 2026-08-29
 
 ### Added

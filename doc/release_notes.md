@@ -1,6 +1,13 @@
-# Flutter Globe v1.0.0
+# Flutter Globe v1.0.1
 
-Flutter Globe is a Flutter Canvas visualization package for interactive geographic scenes with markers, animated great-circle arcs, named themes, staged entrance animation, programmatic camera controls, and composable layers.
+Flutter Globe 1.0.1 is a documentation-only update. The package API and runtime behavior are unchanged from 1.0.0.
+
+## Changes
+
+- Replaced the README banner with the new maintainer-supplied Flutter Globe artwork.
+- Added real desktop and responsive mobile previews captured from the release example.
+- Reorganized the README around installation, first use, common customization, and task-based documentation links.
+- Confirmed that the repository contains only the `main` branch and has no stale pull requests to remove.
 
 ## Install
 
@@ -8,15 +15,4 @@ Flutter Globe is a Flutter Canvas visualization package for interactive geograph
 flutter pub add flutter_globe
 ```
 
-## Highlights
-
-- Perspective and orthographic projection with drag, zoom, momentum, and automatic rotation.
-- Twenty-four themes plus typed surface, atmosphere, lighting, interaction, and quality configuration.
-- Markers, animated arcs, routes, particles, heatmaps, labels, regions, grids, and day/night shading.
-- Seven-page example with a live code-generating playground.
-- Deterministic benchmark profiles, engine timing percentiles, a frame-time timeline, and JSON export.
-- Reduced-motion support, semantic labeling, lifecycle hardening, and public-domain Natural Earth derived land data.
-
-Web release builds and responsive layouts were validated locally. Android, iOS, macOS, Windows, Linux, physical-device performance, and screen-reader sessions were not validated in this checkout; those platform limits are documented rather than inferred.
-
-See `CHANGELOG.md`, `doc/getting_started.md`, and `doc/release_readiness.md` for details.
+See `CHANGELOG.md` and `doc/release_readiness.md` for the complete validation boundary.
